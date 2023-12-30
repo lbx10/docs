@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <body class="wrap" xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .wrap{
+          box-sizing: border-box;
+          margin: 0;
+          height: 100%;
+          padding: 20px;
+        }
+        .shadow {
+          height: 100%;
+          background:#fff;
+          border-radius:8px;
+          overflow: hidden;
+          <!-- box-shadow:0 0 15px #fff, 0 0 10px #fff, 0 0 15px #fff; -->
+          box-shadow:0 0 30px 10px rgba(255,255,255,.7) inset;
+        }
+      </style>
+      <div class="shadow"></div>
+    </body>
+  </foreignObject>
+</svg>
