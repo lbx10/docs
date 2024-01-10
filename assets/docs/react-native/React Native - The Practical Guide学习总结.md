@@ -2,9 +2,15 @@
 
 ![](assets/docs/react-native/RN-pratical.jpg)
 
-#### 视频地址：[React Native 上](https://www.bilibili.com/video/BV1FP4y1M7j2?p=1) [React Native 下](https://www.bilibili.com/video/BV18q4y1Y7M5?p=1)
+#### 视频地址：
 
-#### github 练习：[RN-practice](https://github.com/linzhishui/RN-practice)
+[React Native 上](https://www.bilibili.com/video/BV1FP4y1M7j2?p=1)
+
+[React Native 下](https://www.bilibili.com/video/BV18q4y1Y7M5?p=1)
+
+#### github 练习：
+
+[RN-practice](https://github.com/linzhishui/RN-practice)
 
 本课程的讲师是 Maximilian Schwarzmüller，他是一位知名的前端开发讲师，以其深入浅出、注重细节的教学风格而受到许多学生的喜爱。他的多门课程涵盖了一系列前端开发技术，包括 React、React Native、Typescript、Angular 等，适用于不同水平的学生。
 
