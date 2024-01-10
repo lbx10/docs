@@ -1,6 +1,6 @@
 # React Native - The Practical Guide 学习总结
 
-![](./RN-pratical.jpg)
+![](assets/docs/react-native/RN-pratical.jpg)
 
 #### 视频地址：[React Native 上](https://www.bilibili.com/video/BV1FP4y1M7j2?p=1) [React Native 下](https://www.bilibili.com/video/BV18q4y1Y7M5?p=1)
 
