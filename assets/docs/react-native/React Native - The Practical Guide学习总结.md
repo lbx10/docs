@@ -102,3 +102,43 @@ RN 中导航与 Web 中导航最大区别，就是没有 URL 这个概念了，�
 
 - <u>Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.</u>
 - <u>A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes</u>
+
+## 第七章
+
+介绍Redux和Store的安装和使用。
+
+目前视频里的版本较旧，目前已经有一些方法不建议使用。但为了保持视频学习连贯性，还是继续参照视频里的方法。
+
+## 第八章
+
+构建一个网上购物商城app。没有学习新的知识，还是在巩固前面几个章节学习的知识点。
+
+创建工程后，先规划目录文件夹，放置各种初始文件。
+
+固定的目录文件夹有：
+
+- screens：屏幕页面文件夹，放置各种xxxScreen.js；
+- navigation：导航文件夹，放置xxxNavigation.js；
+- data：数据文件夹，放置dummy-data.js源数据；
+- store：储存文件夹；
+- components：组件文件夹，放置ProductItem.js这种界面具体的显示组件；
+- constants：常量文件夹，放置例如Colors.js这种颜色常量文件；
+- assets：静态资源文件夹，放置图片，字体等文件；
+- models：模型文件夹，放置各种class定义的js，例如product.js如下：
+
+```javascript
+class Product {
+  constructor(id, ownerId, title, imageUrl, description, price) {
+    this.id = id;
+    this.ownerId = ownerId;
+    this.title = title;
+    this.imageUrl = imageUrl;
+    this.description = description;
+    this.price = price;
+  }
+}
+
+export default Product;
+```
+
+ 
