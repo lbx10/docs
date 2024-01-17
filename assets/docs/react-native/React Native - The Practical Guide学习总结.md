@@ -141,4 +141,57 @@ class Product {
 export default Product;
 ```
 
- 
+##  第十四章
+
+<u>**本章介绍APP的打包，发布。但最新的expo版本的打包方式，已和原视频中的方式有不同。**</u>
+
+[expo publish升级说明](https://blog.expo.dev/sunsetting-expo-publish-and-classic-updates-6cb9cd295378)
+
+Expo宣布了一项重大更改，即不再支持`expo publish`命令，而是引入了新的工具集EAS（Expo Application Services）来进行应用程序发布。
+
+EAS是Expo推出的新工具，旨在更好地支持React Native开发者。它包括EAS Build和EAS Submit两个主要组件，分别用于构建和提交应用程序。
+
+**EAS Build:**
+
+- EAS Build是用于构建React Native应用程序的工具。它提供了更快的构建速度，更灵活的配置选项，以及对原生代码的更好的支持。
+- 使用EAS Build，你可以轻松地构建应用程序的二进制文件，而无需在本地维护多个原生代码工作流程。
+
+**EAS Submit:**
+
+- EAS Submit用于代替`expo publish`命令，用于将应用程序发布到应用商店。通过EAS Submit，你可以更轻松地管理应用程序的发布流程，包括构建的版本、更新日志、发布到哪个应用商店等。
+
+下面是一个基本的使用EAS构建和发布React Native应用程序的步骤：
+
+1. **安装EAS CLI:**
+
+   ```bash
+   npm install -g eas-cli
+   ```
+
+2. **登录到EAS账户:**
+
+   ```bash
+   eas login
+   ```
+
+3. **对原应用程序更新，并进行构建:**
+
+   ```bash
+   eas update:configure
+   eas build:configure
+   eas build
+   ```
+
+   这会启动构建过程，你可以根据需要进行配置。
+
+4. **提交应用程序:**
+
+   ```bash
+   eas submit
+   ```
+
+   这将启动应用程序提交过程，包括版本号、更新日志等。
+
+5. **按照提示进行操作，将应用程序提交到应用商店。**
+
+以上步骤是一个简化的概述，实际上你可能需要更多的配置和操作，具体取决于你的项目需求。建议查阅Expo和EAS的官方文档，以获取详细的信息和最新的更新。在未来的版本中，可能会有一些变化，因此请查阅相关文档以确保你获得最准确的信息。
